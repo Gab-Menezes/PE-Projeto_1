@@ -17,7 +17,7 @@ int main(void) {
     printf("\n");
     printMatriz(matriz, &rows, &cols);
 
-    for (int i = 0; i < rows; i++)
+    for (int i = 0; i < MAX_COLS + 1; i++)
     {
         free(matriz[i]);
     }
