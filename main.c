@@ -17,5 +17,11 @@ int main(void) {
     printf("\n");
     printMatriz(matriz, &rows, &cols);
 
+    for (int i = 0; i < rows; i++)
+    {
+        free(matriz[i]);
+    }
+    free(matriz);
+
     return 0;
 }
