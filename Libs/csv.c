@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "csv.h"
 
 FILE* getArquivo(char* path) {
     FILE* file = fopen(path, "r");

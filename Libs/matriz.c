@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include<string.h>
-#include<stdlib.h>
-
-#define MAX_COLS 15
-#define MAX_ROWS 15
+#include <string.h>
+#include <stdlib.h>
+#include "Matriz.h"
 
 int** buildMatriz() {
     int** matriz;
